@@ -1,11 +1,18 @@
 import React from 'react';
-import Menu from './pages/menu';
+import { BrowserRouter as Router, Route, Switch, Routes} from 'react-router-dom';
+import Home from './pages/home';
+import Navigator from './pages/navigator';
 
 function App() {
   return (
+    <Router>
     <div className="App">
-      <Menu />
+      <Navigator />
+      <Routes>
+      <Route path="/" element={<Home />} />
+      </Routes>
     </div>
+    </Router>
   );
 }
 
