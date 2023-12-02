@@ -2,4 +2,40 @@
     width: 100%;
     height: 75vh; /** 100% da altura da viewport*/
     object-fit: cover; /*Mantém a proporção da imagem, cobrindo a área especificada*/
-  };
+  }
+
+  .image-div {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px; /* Espaçamento entre as divs */
+  }
+  
+  .image-with-blur {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .image-with-blur img {
+    height: 400px; 
+    filter: blur(5px);
+    transition: filter 0.3s ease-in-out; 
+  }
+
+  .image-with-blur:hover img {
+    filter: blur(0); 
+  }
+
+  .image-text {
+    position: absolute;
+    bottom: 0; /* Posiciona a div do texto no final da imagem */
+    width: 100%; /* Faz a div do texto ocupar a largura total da imagem */
+    background-color: red; /* Cor de fundo vermelha (ajuste conforme necessário) */
+    color: #fff; /* Cor do texto (ajuste conforme necessário) */
+    transform: translateY(100%); /* Inicialmente, a div do texto está fora da visão, abaixo da imagem */
+    transition: transform 0.3s ease-in-out; /* Adiciona uma transição suave para o efeito de aparecimento */
+  }
+
+  .image-with-blur:hover .image-text {
+    transform: translateY(0); /* Move a div do texto para cima ao passar o mouse sobre a imagem */
+  }
+  
