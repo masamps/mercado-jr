@@ -34,6 +34,9 @@ const Home = () => {
           {/* Adicione mais imagens conforme necessário */}
         </Slider>
       </div>
+      <div className='texto-unidades'>
+        <h1>Nossas Lojas</h1>
+      </div>
       <div className="image-div">
         <div className="image-with-blur">
             <img src={niltonTorres} alt="Imagem 3" />

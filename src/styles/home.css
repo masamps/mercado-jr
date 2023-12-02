@@ -27,15 +27,31 @@
 
   .image-text {
     position: absolute;
-    bottom: 0; /* Posiciona a div do texto no final da imagem */
-    width: 100%; /* Faz a div do texto ocupar a largura total da imagem */
-    background-color: red; /* Cor de fundo vermelha (ajuste conforme necessário) */
-    color: #fff; /* Cor do texto (ajuste conforme necessário) */
-    transform: translateY(100%); /* Inicialmente, a div do texto está fora da visão, abaixo da imagem */
-    transition: transform 0.3s ease-in-out; /* Adiciona uma transição suave para o efeito de aparecimento */
+    bottom: 0; 
+    width: 100%; 
+    background-color: red; 
+    color: #fff; 
+    transform: translateY(100%); 
+    transition: transform 0.3s ease-in-out; 
   }
 
   .image-with-blur:hover .image-text {
-    transform: translateY(0); /* Move a div do texto para cima ao passar o mouse sobre a imagem */
+    transform: translateY(0); 
   }
+
+  .texto-unidades {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .texto-unidades h1 {
+    font-weight: normal;
+    border-bottom: 2px solid #098dff; 
+    padding-bottom: 10px;
+    color: #424445;
+  }
+
   
