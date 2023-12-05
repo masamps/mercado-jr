@@ -33,3 +33,23 @@ footer {
     align-items: flex-start; /* Alinha os itens à esquerda */
   }
   
+  .footer-section {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 15px;
+    box-sizing: border-box;
+   }
+   
+   .footer-section h2 {
+    margin-bottom: 15px;
+   }
+   
+   .footer-section ul {
+    list-style-type: none;
+    padding: 0;
+   }
+   
+   .footer-section li {
+    margin-bottom: 5px;
+   }

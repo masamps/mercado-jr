@@ -3,38 +3,27 @@ import '../styles/footer.css'
 
 const Footer = () => {
   return (
-    <footer>
-      <div className='footerGeral'>
-        <div className='divInstitucional'>
-            <h2>Institucional
-                
-            </h2>
-            <ul>
-                <li>Home</li>
-                <li>A Empresa</li>
-                <li>Fale Conosco</li>
-                <li>Trabalhe Conosco</li>
-            </ul>
-        </div>
-        <div>
-            <h2>Redes Sociais</h2>
-            <ul>
-                <li>
-                    <a href='https://www.instagram.com/jrsupermercadosorocaba/' target='_blank'>
-                        
-                        <span>Instagram</span>
-                    </a>
-                </li>
-                <li>
-                    <a href='https://www.facebook.com/SupermercadoJRSorocaba/' target='_blank'>
-                        <span>Facebook</span>
-                    </a>
-                </li>
-            </ul>
-        </div>
-      </div>
-    </footer>
+     <footer >
+ 
+         <div class="footer-section">
+             <h2>Institucional</h2>
+             <ul>
+                 <li><a href="#">Home</a></li>
+                 <li><a href="#">A Empresa</a></li>
+                 <li><a href="#">Fale Conosco</a></li>
+                 <li><a href="#">Trabalhe Conosco</a></li>
+             </ul>
+         </div>
+         <div class="footer-section">
+             <h2>Redes Sociais</h2>
+             <ul>
+                 <li><a href='https://www.instagram.com/jrsupermercadosorocaba/' target='_blank'>Instagram</a></li>
+                 <li><a href='https://www.facebook.com/SupermercadoJRSorocaba/' target='_blank'>Facebook </a></li>
+             </ul>
+         </div>
+       
+     </footer>
   );
-};
-
-export default Footer;
+ };
+ 
+ export default Footer;
