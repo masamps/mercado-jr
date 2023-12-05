@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.58b53c52.css",
+    "main.js": "/static/js/main.d61e10cc.js",
+    "static/media/NiltonTorres.png": "/static/media/NiltonTorres.d9c2d53dc0f1985c422a.png",
+    "static/media/portalEden.png": "/static/media/portalEden.84855750b4a5c6fe62f7.png",
+    "static/media/natal.jpg": "/static/media/natal.e720f69dc4545f5f9e2c.jpg",
+    "static/media/hortfruti.jpg": "/static/media/hortfruti.91a8c532a76b8b7896e2.jpg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.58b53c52.css.map": "/static/css/main.58b53c52.css.map",
+    "main.d61e10cc.js.map": "/static/js/main.d61e10cc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58b53c52.css",
+    "static/js/main.d61e10cc.js"
+  ]
+}
