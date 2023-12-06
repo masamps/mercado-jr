@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch, Routes} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch, Routes, Navigate} from 'react-router-dom';
 import Home from './pages/home';
 import Navigator from './pages/navigator';
 import Footer from './pages/footer';
@@ -10,7 +10,8 @@ function App() {
     <div className="App">
       <Navigator />
       <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/" element= {<Navigate to="/Home" />} />
+      <Route path="/Home" element={<Home />} />
       </Routes>
       <Footer/>
     </div>
