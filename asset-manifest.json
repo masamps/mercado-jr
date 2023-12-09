@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mercado-jr/static/css/main.8c892ec3.css",
-    "main.js": "/mercado-jr/static/js/main.124abc80.js",
+    "main.css": "/mercado-jr/static/css/main.5e3a0a25.css",
+    "main.js": "/mercado-jr/static/js/main.e4b4194c.js",
     "static/media/NiltonTorres.png": "/mercado-jr/static/media/NiltonTorres.d9c2d53dc0f1985c422a.png",
     "static/media/portalEden.png": "/mercado-jr/static/media/portalEden.84855750b4a5c6fe62f7.png",
     "static/media/natal.jpg": "/mercado-jr/static/media/natal.e720f69dc4545f5f9e2c.jpg",
@@ -11,11 +11,11 @@
     "static/media/slick.ttf": "/mercado-jr/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/mercado-jr/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/mercado-jr/index.html",
-    "main.8c892ec3.css.map": "/mercado-jr/static/css/main.8c892ec3.css.map",
-    "main.124abc80.js.map": "/mercado-jr/static/js/main.124abc80.js.map"
+    "main.5e3a0a25.css.map": "/mercado-jr/static/css/main.5e3a0a25.css.map",
+    "main.e4b4194c.js.map": "/mercado-jr/static/js/main.e4b4194c.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c892ec3.css",
-    "static/js/main.124abc80.js"
+    "static/css/main.5e3a0a25.css",
+    "static/js/main.e4b4194c.js"
   ]
 }
