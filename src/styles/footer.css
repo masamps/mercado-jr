@@ -43,13 +43,25 @@ footer {
    
    .footer-section h2 {
     margin-bottom: 15px;
+    margin-left: 200px;
    }
    
-   .footer-section ul {
+   .ul-footer {
     list-style-type: none;
     padding: 0;
+    display: block;
    }
    
    .footer-section li {
     margin-bottom: 5px;
+   }
+
+   .p-footer{
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+    display: flex;
+    justify-content:center;
+    bottom: 0;
+    position: relative;
    }

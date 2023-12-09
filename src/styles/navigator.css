@@ -24,6 +24,7 @@
     gap: 100px;
     left: 100px;
     position: relative;
+    white-space: nowrap;
   }
   
   li {
