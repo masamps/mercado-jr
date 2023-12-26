@@ -14,8 +14,8 @@ function Navigator() {
         <ul>
           <li><Link to="/Home">Home</Link></li>
           <li><Link to="/Empresa">A Empresa</Link></li>
-          <li><Link to="/Carrinho">Fale Conosco</Link></li>
-          <li><Link to="/Carrinho">Trabalhe Conosco</Link></li>
+          <li><Link to="/Fale">Fale Conosco</Link></li>
+          <li><Link to="/Trabalhe">Trabalhe Conosco</Link></li>
         </ul>
       </nav>
     </header>
