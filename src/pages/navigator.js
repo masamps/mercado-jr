@@ -12,7 +12,7 @@ function Navigator() {
       </div>
       <nav className="menu-container">
         <ul>
-          <li><Link to="/Home">Home</Link></li>
+          <li><Link to="/Home">Inicio</Link></li>
           <li><Link to="/Empresa">A Empresa</Link></li>
           <li><Link to="/Fale">Fale Conosco</Link></li>
           <li><Link to="/Trabalhe">Trabalhe Conosco</Link></li>

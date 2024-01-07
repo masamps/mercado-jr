@@ -65,3 +65,52 @@ footer {
     bottom: 0;
     position: relative;
    }
+
+   @media screen and (min-width: 768px) {
+    footer {
+      height: 300px; /* Altura fixa para telas maiores */
+    }
+  
+    .footer-section {
+      width: 50%; /* Cada seção ocupa metade do rodapé */
+      display: inline-block;
+      vertical-align: top;
+    }
+  
+    .footer-section h2 {
+      text-align: left;
+      margin-left: 0px;
+    }
+  
+    .p-footer {
+      position: relative;
+      bottom: 0;
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  @media screen and (min-width: 430px) {
+    footer {
+      height: 300px; /* Altura fixa para telas maiores */
+    }
+  
+    .footer-section {
+      width: 50%; /* Cada seção ocupa metade do rodapé */
+      display: inline-block;
+      vertical-align: top;
+    }
+  
+    .footer-section h2 {
+      text-align: left;
+      margin-left: 20px;
+      font-size: 20px;
+    }
+  
+    .p-footer {
+      position: relative;
+      bottom: 0;
+      display: flex;
+      justify-content: center;
+    }
+  }

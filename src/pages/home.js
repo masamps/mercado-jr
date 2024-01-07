@@ -25,7 +25,7 @@ const Home = () => {
     <>
       <div>
         <Slider {...settings}>
-          <div>
+          <div >
             <img src={hortfruit} alt="Imagem 1" className='imgStyle' />
           </div>
           <div>
@@ -44,9 +44,9 @@ const Home = () => {
                 <p>R. Pedro José Bicudo, 62 - Jardim Nilton Torres, Sorocaba</p>
               </div>
         </div>
-          <div className="image-with-blur">
+          <div className="image-with-blur2">
             <img src={portalEden} alt="Imagem 4" />
-            <div className="image-text">
+            <div className="image-text2">
                 <p>Célio Figueiredo Silva, 263 - Portal do Éden, Itu</p>
               </div>
         </div>
