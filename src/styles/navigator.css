@@ -67,11 +67,6 @@
     height: 50px;
   }
 
-
-  .menu-container {
-    
-  }
-
   ul {
     display: flex;
     justify-content: flex-end;
@@ -121,11 +116,6 @@
       height: 50px;
     }
   
-  
-    .menu-container {
-      
-    }
-  
     ul {
       display: flex;
       justify-content: flex-end;
@@ -139,12 +129,14 @@
   
     li {
       margin: 10px 0;
+      font-size: 10px;
     }
   
     .logo-container {
       display: flex;
       align-items: center;
       width: 10px;
+      margin-right: 40px;
     }
   
     .logo {
@@ -156,7 +148,7 @@
       text-decoration: none;
       color: #333;
       font-weight: bold;
-      font-size: 13px;
+      font-size: 11px;
       transition: color 0.3s ease-in-out;
     }
   

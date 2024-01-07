@@ -63,7 +63,7 @@
   @media screen and (max-width: 430px) {
 
     .imgStyle {
-      width: 100%;
+      width: auto;
       height: 45vh; 
       object-fit: cover; 
     }
@@ -89,13 +89,14 @@
     
     .image-with-blur img {
       height: 250px; 
+      width: 430px;
       filter: blur(1px);
       transition: filter 0.3s ease-in-out; 
     }
 
     .image-with-blur2 img {
       height: 250px; 
-      width: 405px;
+      width: 430px;
       filter: blur(1px);
       transition: filter 0.3s ease-in-out; 
     }
@@ -111,7 +112,7 @@
     .image-text {
       position: absolute;
       bottom: 0; 
-      width: 402px; 
+      width: 430px; 
       background-color: #5cb0eb; 
       color: #fff; 
       font-weight: bold;
@@ -126,7 +127,7 @@
     .image-text2 {
       position: absolute;
       bottom: 0;
-      width: 405px; 
+      width: 430px; 
       background-color: #5cb0eb; 
       color: #fff; 
       font-weight: bold;
@@ -149,9 +150,10 @@
     .texto-unidades {
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: flex-start;
       padding-top: 30px;
       padding-bottom: 30px;
+      margin-left: 130px;
     }
     
     .texto-unidades h1 {
@@ -159,7 +161,7 @@
       border-bottom: 2px solid #098dff; 
       padding-bottom: 10px;
       color: #424445;
-      font-size: 25px;
+      font-size: 20px;
       margin-top: 50px;
       margin-bottom: 10px;
     }

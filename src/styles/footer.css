@@ -92,7 +92,8 @@ footer {
 
   @media screen and (min-width: 430px) {
     footer {
-      height: 300px; /* Altura fixa para telas maiores */
+      height: 200px; 
+      width: 370px;
     }
   
     .footer-section {
@@ -104,7 +105,7 @@ footer {
     .footer-section h2 {
       text-align: left;
       margin-left: 20px;
-      font-size: 20px;
+      font-size: 15px;
     }
   
     .p-footer {
@@ -112,5 +113,7 @@ footer {
       bottom: 0;
       display: flex;
       justify-content: center;
+      font-size: 13px;
+      padding-top: 20px;
     }
   }
