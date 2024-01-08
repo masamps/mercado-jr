@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import '../styles/faleConosco.css';
+import '../styles/marmita.css';
 
-const Fale = () => {
+const Marmita = () => {
     const [nome, setNome] = useState('');
     const [telefone, setTelefone] = useState('');
     const [email, setEmail] = useState('');
@@ -68,4 +68,4 @@ const Fale = () => {
     );
 };
 
-export default Fale;
+export default Marmita;
