@@ -1,69 +1,59 @@
 import React, { useState } from 'react';
 import '../styles/marmita.css';
+import segunda from '../img/Cardapio-Seg.jpeg';
+import terca from '../img/Cardapio-Ter.jpeg';
 
 const Marmita = () => {
-    const [nome, setNome] = useState('');
-    const [telefone, setTelefone] = useState('');
-    const [email, setEmail] = useState('');
-    const [mensagem, setMensagem] = useState('');
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        console.log('Nome:', nome);
-        console.log('Email:', email);
-        console.log('Mensagem:', mensagem);
-        setNome('');
-        setTelefone('');
-        setEmail('');
-        setMensagem('');
+    const handleWhatsAppClick = () => {
+        const whatsappLink = 'https://api.whatsapp.com/send/?phone=5515996328548&text=Ol%C3%A1%2C+gostaria+de+fazer+um+pedido&type=phone_number&app_absent=0';
+        window.open(whatsappLink, '_blank');
+    };
+
+    const handleIfoodClick = () => {
+        const ifoodLink = 'https://www.ifood.com.br/delivery/sorocaba-sp/rotisserie-jr-jardim-nilton-torres/027c682c-43f2-4053-8e9d-fe7998a2d857';
+        window.open(ifoodLink, '_blank');
     };
 
     return (
-        <div className="formulario">
-            <h3>Fale Conosco</h3>
-            <form onSubmit={handleSubmit} className="form">
-            <p className="titulo-formulario">Tem alguma sujestão, elogio, reclamação ou outro assunto relacionado a nossas lojas? Preencha o formulário abaixo:</p>
-                <label>
-                    Nome:
-                    <input 
-                        type="text" 
-                        value={nome} 
-                        onChange={(e) => setNome(e.target.value)} 
-                        className="formulario-input" 
-                    />
-                </label>
-                <br />
-                <label>
-                    Telefone:
-                    <input 
-                        type="number" 
-                        value={telefone} 
-                        onChange={(e) => setTelefone(e.target.value)} 
-                        className="formulario-input" 
-                    />
-                </label>
-                <br />
-                <label>
-                    Email:
-                    <input 
-                        type="email" 
-                        value={email} 
-                        onChange={(e) => setEmail(e.target.value)} 
-                        className="formulario-input" 
-                    />
-                </label>
-                <br />
-                <label>
-                    Mensagem:
-                    <textarea 
-                        value={mensagem} 
-                        onChange={(e) => setMensagem(e.target.value)} 
-                        className="formulario-textarea" 
-                    />
-                </label>
-                <br />
-                <button type="submit" className="formulario-button">Enviar</button>
-            </form>
+        <div className="marmita">
+            <h3>Entre em contato!</h3>
+            <div className='botoes-div'>
+                <div className='botao-whats'>
+                    <button onClick={handleWhatsAppClick}>
+                        Faça seu pedido no Whats!
+                    </button>
+                </div>
+                <div className='botao-ifood'>
+                    <button onClick={handleIfoodClick}>
+                        Faça seu pedido no iFood!
+                    </button>
+            </div>
+            </div>
+            <h3>Confira nosso cardápio da semana.</h3>
+            <div className='marmitas-div'>
+                <div className='cardapios'>
+                    <img src={segunda} alt="Imagem 1" className='cardapioStyle' />
+                </div>
+                <div className='cardapios'>
+                    <img src={terca} alt="Imagem 1" className='cardapioStyle' />
+                </div>
+                <div className='cardapios'>
+                    <img src={segunda} alt="Imagem 1" className='cardapioStyle' />
+                </div>
+                <div className='cardapios'>
+                    <img src={segunda} alt="Imagem 1" className='cardapioStyle' />
+                </div>
+                <div className='cardapios'>
+                    <img src={segunda} alt="Imagem 1" className='cardapioStyle' />
+                </div>
+                <div className='cardapios'>
+                    <img src={segunda} alt="Imagem 1" className='cardapioStyle' />
+                </div>
+                <div className='cardapios'>
+                    <img src={segunda} alt="Imagem 1" className='cardapioStyle' />
+                </div>
+            </div>
         </div>
     );
 };
