@@ -54,6 +54,12 @@
     margin-right: 10px; 
   }
 
+  .menu-container ul li.active,
+  .menu-container ul li.active a {
+    border-bottom: 2px solid #2c90ee; /* Substitua #ff0000 pela cor desejada */
+    color: #2c90ee; /* Adicione esta linha para definir a cor do texto ativo */
+  }
+
   /* Estilos para dispositivos móveis */
 @media screen and (max-width: 768px) {
   .menu-header {
@@ -100,6 +106,12 @@
 
   .mobile-icon.active svg {
     color: #2c90ee;
+  }
+
+  .menu-container ul li.active,
+  .menu-container ul li.active a {
+    border-bottom: 2px solid #ff0000; /* Substitua #ff0000 pela cor desejada */
+    color: #ff0000; /* Adicione esta linha para definir a cor do texto ativo */
   }
   }
 
@@ -159,5 +171,11 @@
   
     .mobile-icon.active svg {
       color: #2c90ee;
+    }
+
+    .menu-container ul li.active,
+    .menu-container ul li.active a {
+      border-bottom: 2px solid #2c90ee; /* Substitua #ff0000 pela cor desejada */
+      color: #2c90ee; /* Adicione esta linha para definir a cor do texto ativo */
     }
     }
